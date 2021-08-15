@@ -1,6 +1,6 @@
 # create a file
 file { '/tmp/holberton':
-  ensure  => 'file',
+  ensure  => file,
   path    => '/tmp/holberton',
   content => 'I love Puppet',
   owner   => 'www-data',
